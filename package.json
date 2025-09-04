@@ -2,11 +2,11 @@
   "name": "soundcraft-ui24r-controller",
   "version": "1.0.0",
   "private": true,
-  "description": "Application moderne de contrôle à distance pour console Soundcraft Ui24R",
+  "description": "Application moderne de contr\u00f4le \u00e0 distance pour console Soundcraft Ui24R",
   "scripts": {
-    "dev": "PORT=3000 next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && PORT=3000 next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
